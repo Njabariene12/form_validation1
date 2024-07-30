@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+main{
+    background-image: url(../ca-contemporary_balancehill_photomanololangis.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+#content{
+    margin-left: 50%;
+    background-color: antiquewhite;
+    opacity: 0.7;
+    height: 100%;
+    align-content: center;
+}
+#material{
+    margin: 15px;
+    box-shadow: 8px 8px 5px gray;
+}
+#names, #contact, #password{
+    margin: 10px 0px;
+}
+form{
+    margin-top: 30px;
+}
+
+input{
+    vertical-align: middle;
+    right: 50%;
+    background-color:aliceblue;
+    margin-left: 5px;
+    border: 3px solid, silver;
+}
+button{
+    padding: 10px;
+    margin: 10px 0px;
+    border-radius: 10px;
+    border: none;
+    background: black;
+    color: aliceblue;
+}
+input:enabled{
+    border-color: yellow;    
+    width: 120px;
+}
+#fillers{
+    display: block;
+    position: relative;
+}
+#passd input{
+    display: inline-block;
+    position: absolute;
+    margin-right: 120px;
+}
+input:default{
+    border-color: blue;
+}
+input:valid{
+    border-color: green;
+}
+input:invalid{
+    border-color: red;
+}
+#right{
+ 
+    margin-right: 150px;
+    float: right;
+}

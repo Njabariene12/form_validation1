@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form1</title>
+    <link rel="stylesheet" href="form1.css">
+</head>
+<body>
+    <main>
+        <div id="content">
+            <div id="material">
+                <h1>Validation form</h1>
+                <p>This is the first assignment on the second phase of web development exercise.</p>
+                <form action="" id="form">
+                    <h1>Dynamic form </h1>
+                    <div id="fillers">
+                        <div id="names">
+                            <label for="names" id="passd">First Name<input type="text" class="input" required></label>
+                            <label for="names2" id="right">Last Name<input type="text" class="input2" required></label>
+                            
+                        </div>
+                        <div id="contact">
+                            <label for="email" id="passd">Email<input type="text" class="input"></label>
+                            <label for="phone" id="right">Phone number<input type="text" class="input2" required></label>
+                                       
+                        </div>
+                        <div id="password">
+                            <label for="pass" id="passd">Password<input type="text" name="password" class="input" pattern="[a-z]{3}" required></label>      
+                            <label for="conpass" id="right">Confirm Password<input type="text" name="password" class="input2" pattern="[a-z]{3}" required></label>
+                            
+                        </div>
+                    </div>
+                    
+                    <button type="submit">Create Account</button>
+                </form>
+
+                
+
+                <p>Already have an account <a href="#">Log in</a></p>
+
+            </div>           
+        </div>      
+    </main>
+</body>
+</html>
